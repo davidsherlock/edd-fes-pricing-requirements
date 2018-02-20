@@ -1,0 +1,103 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: Easy Digital Downloads - FES Pricing Restrictions\n"
+"POT-Creation-Date: 2018-02-20 10:47+0000\n"
+"PO-Revision-Date: 2018-02-20 10:47+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.6\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: edd-fes-pricing-restrictions.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: edd-fes-pricing-restrictions.php:102
+msgid "Pricing Restrictions"
+msgstr ""
+
+#: edd-fes-pricing-restrictions.php:119
+msgid "Minimum Price"
+msgstr ""
+
+#: edd-fes-pricing-restrictions.php:120
+msgid "Enter the minimum allowed price for product submissions."
+msgstr ""
+
+#: edd-fes-pricing-restrictions.php:126
+msgid "Maximum Price"
+msgstr ""
+
+#: edd-fes-pricing-restrictions.php:127
+msgid "Enter the maximum allowed price for product submissions."
+msgstr ""
+
+#: edd-fes-pricing-restrictions.php:133
+msgid "Disallow Free Submissions"
+msgstr ""
+
+#: edd-fes-pricing-restrictions.php:134
+msgid "If checked free product submissions will not be permitted."
+msgstr ""
+
+#: edd-fes-pricing-restrictions.php:196
+#, php-format
+msgid "Free (%s) product submissions are not permitted."
+msgstr ""
+
+#: edd-fes-pricing-restrictions.php:204
+#, php-format
+msgid "Price must be greater than %s."
+msgstr ""
+
+#: edd-fes-pricing-restrictions.php:212
+#, php-format
+msgid "Price must be less than %s."
+msgstr ""
+
+#: includes/classes/class-activation.php:47
+msgid "This plugin"
+msgstr ""
+
+#: includes/classes/class-activation.php:84
+msgid "activate it"
+msgstr ""
+
+#: includes/classes/class-activation.php:87
+msgid "install it"
+msgstr ""
+
+#: includes/classes/class-activation.php:90
+#, php-format
+msgid " requires Easy Digital Downloads! Please %s to continue!"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "Easy Digital Downloads - FES Pricing Restrictions"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "https://wordpress.org/plugins/edd-fes-pricing-restrictions/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Force minimum and maximum pricing thresholds on FES product submissions."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Sell Comet"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://sellcomet.com"
+msgstr ""
