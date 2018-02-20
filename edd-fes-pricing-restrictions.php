@@ -200,15 +200,15 @@ if( ! class_exists( 'EDD_FES_Pricing_Restrictions' ) ) {
 
                             // Check minimum product price
                             if ( $min_price ) {
-                                if ( $values[ 'option' ][ $key ]['price'] < (float) $min_price ) {
-                                  $return_value = sprintf( __( 'Price must be greater than %s.', 'edd-fes-pricing-restrictions' ), edd_currency_filter( edd_format_amount( $min_price ) ) );
+                                if ( $values[ 'option' ][ $key ]['price'] != 0 && $values[ 'option' ][ $key ]['price'] < (float) $min_price ) {
+                                  $return_value = sprintf( __( 'Price must be %s or greater.', 'edd-fes-pricing-restrictions' ), edd_currency_filter( edd_format_amount( $min_price ) ) );
                                   break;
                                 }
                             }
 
                             // Check maximum product price
                             if ( $max_price ) {
-                                if ( $values[ 'option' ][ $key ]['price'] > (float) $max_price ) {
+                                if ( $values[ 'option' ][ $key ]['price'] != 0 && $values[ 'option' ][ $key ]['price'] > (float) $max_price ) {
                                   $return_value = sprintf( __( 'Price must be less than %s.', 'edd-fes-pricing-restrictions' ), edd_currency_filter( edd_format_amount( $max_price ) ) );
                                   break;
                                 }
