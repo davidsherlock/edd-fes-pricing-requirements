@@ -1,6 +1,6 @@
-## [Easy Digital Downloads - FES Pricing Restrictions Fees](https://wordpress.org/plugins/edd-fes-pricing-restrictions/)
+## [Easy Digital Downloads - FES Pricing Restrictions](https://wordpress.org/plugins/edd-fes-pricing-restrictions/)
 
-**FES Pricing Restrictions** for Easy Digital Downloads Frontend Submissions allows you to force minimum and maximum pricing requirements for product submissions. The ability to disallow free product submissions on your marketplace is also included.
+FES Pricing Restrictions for Easy Digital Downloads Frontend Submissions allows you to force minimum and maximum pricing requirements for product submissions. The ability to disallow free product submissions on your marketplace is also included.
 
 ## Use-case Examples
 
